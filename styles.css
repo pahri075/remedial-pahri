@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+  
+  /* Header Section */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .logo {
+    width: 150px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('hotel-hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+  }
+  
+  .hero-text p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #006241;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #004d31;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+  }
+  
+  /* Rooms Section */
+  .rooms {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .rooms .room-card {
+    display: inline-block;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .rooms img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .room-card h3 {
+    margin-top: 15px;
+  }
+  
+  /* Facilities Section */
+  .facilities {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .facilities ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .facilities li {
+    margin: 10px 0;
+  }
+  
+  /* Footer Section */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  
+  .footer .social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .footer .social-links img {
+    width: 25px;
+  }
